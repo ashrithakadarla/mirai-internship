@@ -14,8 +14,10 @@ This repository is used to:
 
 1. **Session 1 (`internship.py`)** – Learned to use the Google Gemini API in Python to generate AI responses.
 
-2. **Assignment 1 (`calculator.py`)** – Built a basic calculator web application using Streamlit.
+2. **Session 2 (`app.py`)** – Built a simple Streamlit application that accepts user input and displays the entered name upon submission.
 
-3. **Session 2 (`app.py`)** – Built a simple Streamlit application that accepts user input and displays the entered name upon submission.
+    - **(`Calculator.py`)** – Built a basic calculator web application using Streamlit.
 
-4. **Session 3 (`app2.py`)** – Developed a Streamlit AI chatbot using the Google Gemini API and securely managed the API key with a `.env` file.
+    - **Assignment 1 (`identity_echo_interface.py`)** – Built a Streamlit interface that collects user details, validates input, and estimates token usage for the entered message.
+
+3. **Session 3 (`app2.py`)** – Developed a Streamlit AI chatbot using the Google Gemini API and securely managed the API key with a `.env` file.
