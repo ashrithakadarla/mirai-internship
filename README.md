@@ -12,7 +12,7 @@ This repository is used to:
 
 ## Daily Tasks
 
-1. **Session 1 (`session1.py`)** – Learned to use the Google Gemini API in Python to generate AI responses.
+1. **Session 1 (`internship.py`)** – Learned to use the Google Gemini API in Python to generate AI responses.
 
 2. **Assignment 1 (`calculator.py`)** – Built a basic calculator web application using Streamlit.
 
