@@ -2,24 +2,24 @@
 
 A Streamlit-based AI chatbot powered by Google's Gemini API that allows users to chat with different AI personalities. This project upgrades the chatbot from a **stateless** application to a **stateful** chatbot using **Streamlit Session State**, enabling it to remember conversation history throughout the session.
 
-## 🚀 Features
+## Features
 
-- 🤖 Multiple AI personalities
+- Multiple AI personalities
   - An Expert Hacker
   - Iron Man
   - Any Random Personality
   - An Angry Ravi Shastri
   - A Crazy Ronaldo Fan
   - Donald Trump
-- 🎭 Adjustable personality intensity
-- 💬 Interactive chat interface using `st.chat_input()`
-- 🧠 Chat memory using `st.session_state`
-- 🔄 Conversation history persists across Streamlit reruns
-- ⚡ Powered by Google Gemini 2.5 Flash
+- Adjustable personality intensity
+- Interactive chat interface using `st.chat_input()`
+- Chat memory using `st.session_state`
+- Conversation history persists across Streamlit reruns
+- Powered by Google Gemini 2.5 Flash
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - Python
 - Streamlit
@@ -28,7 +28,7 @@ A Streamlit-based AI chatbot powered by Google's Gemini API that allows users to
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 .
@@ -39,7 +39,7 @@ A Streamlit-based AI chatbot powered by Google's Gemini API that allows users to
 
 ---
 
-## ▶️ Running the Application
+## Running the Application
 
 Start the Streamlit app with:
 
@@ -49,7 +49,7 @@ streamlit run app.py
 
 ---
 
-## 🧠 Memory Vault Implementation
+## Memory Vault Implementation
 
 This project uses **Streamlit Session State** to maintain chat history.
 
@@ -72,7 +72,7 @@ The demonstration video is included in this repository.
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Ashritha Kadarla**
 
