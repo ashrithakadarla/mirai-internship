@@ -29,7 +29,7 @@ client = get_client()
 # Load Data
 # -------------------------
 
-df = pd.read_csv("screentime.csv")
+df = pd.read_csv("assignment7/screentime.csv")
 df["Date"] = pd.to_datetime(df["Date"])
 
 # -------------------------
