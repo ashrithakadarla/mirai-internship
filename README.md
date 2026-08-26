@@ -1,52 +1,175 @@
-# Mirai Internship
+# MirAI School of Technology — AI Builder Internship
 
-This repository contains my work, assignments, and projects completed during the Mirai Internship.
+This repository documents my learning journey through the MirAI School of Technology Virtual Summer Internship 2026 — AI Builder Track. It contains session-based learning, assignments, practical experiments, and application work completed during the internship.
 
 ## About
 
-This repository is used to:
-- Track my internship progress
-- Store assignments
-- Maintain project source code
-- Document my learning throughout the internship
+This repository captures my internship progress through hands-on exercises, AI application development, and assignment work during the program.
 
-## Sessions & Assignments
+## Internship Sessions
 
-### Session 1 (`internship.py`) 
-– Learned to use the Google Gemini API in Python to generate AI responses.
+### Session 1 — Google Gemini API Foundations
 
-### Session 2
-**`app.py`** – Built a simple Streamlit application that accepts user input and displays the entered name upon submission.
+- File: `internship.py`
+- Learned to use the Google Gemini API with Python to generate AI responses.
 
-**(`Calculator.py`)** – Built a basic calculator web application using Streamlit.
+### Session 2 — Streamlit Basics and User Interaction
 
-**Assignment 1 (`identity_echo_interface.py`)** – Built a Streamlit interface that collects user details, validates input, and estimates token usage for the entered message.
+- Files: `app.py`, `Calculator.py`, `identity_echo_interface.py`
+- Explored Streamlit basics, user input, and interactive UI design.
+- Built a basic calculator and the Assignment 1 project: Identity Echo Interface.
+- Identity Echo Interface collected user details, validated input, and estimated token usage for the entered text or message.
 
-### Session 3 
-**Assignment 2(`session3.py`)**
-– Developed a Streamlit AI chatbot using the Google Gemini API and securely managed the API key with a `.env` file.
+### Session 3 — Google Gemini / AI Chatbot
 
-### Session 4
-**`session4.py`** – Generated AI images from text prompts using the Pollinations AI Image API and saved them locally using Python.
+- File: `session3.py`
+- Built a Streamlit AI chatbot using the Google Gemini API.
+- Managed the API key using environment variables and local `.env`-style configuration.
 
-**Assignment 3 (`multipersonality_chatbot/app.py`)** – Built a stateful multi-personality AI chatbot using Streamlit Session State (`st.session_state`) to preserve chat history across interactions.
+### Session 4 — AI Image Generation and Stateful Chatbot
 
-### Session 5
-**`session5.py`** – Built an AI Image Generator using the Pollinations AI Image API with customizable art styles and image dimensions.
+- Files: `session4.py`, `multipersonality_chatbot/app.py`
+- Worked with Pollinations AI to generate images from text prompts.
+- Built a stateful multi-personality chatbot using Streamlit Session State to preserve chat history and state.
 
-**Assignment 4 (`assignment4.py`)** – Enhanced the AI Image Generator by fixing image size controls, adding Magic Enhance, Surprise Me, and dynamic image downloads.
+### Session 5 — AI Image Generation and Improvements
 
-### Session 6
-**`session6.py`** – Built a stateful AI chatbot with persistent chat history and downloadable conversations using Streamlit Session State.
+- Files: `session5.py`, `assignment4.py`
+- Continued working with Pollinations AI for image generation.
+- Explored customizable art styles and image dimensions.
+- Improved the image generation flow with Magic Enhance, Surprise Me, and dynamic downloads.
 
-**Assignment 5 (`assignment5.py`)** – Developed an AI Multi-Modal Visual Novel featuring structured JSON responses, dynamic story choices, AI-generated images, text-to-speech narration, and stateful storytelling.
+### Session 6 — Stateful AI and Visual Novel Concepts
 
-### Session 7
-- Learned Git, GitHub, Version Control, and deploying Streamlit applications using Streamlit Community Cloud.
+- Files: `session6.py`, `assignment5.py`
+- Built a stateful Gemini chatbot with chat history and downloadable conversation output.
+- Worked on AI storytelling concepts with structured JSON responses, dynamic story choices, Pollinations AI visuals, and gTTS narration.
 
-### Session 8
-**`session8.py`** – Built a simple Speech-to-Text application using the `streamlit-mic-recorder` library.
+### Session 7 — Git, GitHub, Version Control, and Deployment
 
----
+- Covered Git, GitHub, version control, repository workflow, deployment basics, and Streamlit Community Cloud.
 
-**Author:** **Ashritha Kadarla**
+### Session 8 — Speech-to-Text
+
+- File: `session8.py`
+- Built a simple speech-to-text application in Streamlit using `streamlit-mic-recorder`.
+
+### Session 9 — Sports Analytics Dashboard
+
+- File: `session9.py`
+- Built a Streamlit sports analytics dashboard with player selection, KPI cards, and a run-rate chart.
+- Used Pandas and NumPy to generate a simple data view and visualize performance trends.
+
+### Session 10 — Streamlit Forms and Data Interaction
+
+- File: `session10.py`
+- Explored Streamlit loading states, forms, expanders, and user interaction patterns.
+- Built a small dashboard showing API latency simulation, form inputs, and editable tabular data using `st.data_editor`.
+
+### Session 11 — Interactive Web Development with DOM & APIs
+
+This session was part of the internship curriculum. No separate implementation file from this session is included in this repository.
+
+### Session 12 — Build the Frontend of an AI Resume Optimizer and Connect It to an LLM API
+
+This session was part of the internship curriculum. No separate implementation file from this session is included in this repository.
+
+### Session 13 — Build the Frontend of an AI Resume Optimizer and Connect It to an LLM API
+
+This session was part of the internship curriculum. No separate implementation file from this session is included in this repository.
+
+### Session 14 — Capstone Project
+
+## Assignments
+
+| Assignment | Description | Technologies |
+|---|---|---|
+| Assignment 1 — Identity Echo Interface | Streamlit interface for collecting user details, validating input, and estimating token usage for entered text or messages. | Streamlit, Python |
+| Assignment 2 — Gemini AI Chatbot | Streamlit-based chatbot using the Google Gemini API with environment-variable-based API management. | Streamlit, Google Gemini API, Python |
+| Assignment 3 — Multi-Personality Chatbot | Stateful chatbot that preserves conversation history and personality-based responses using Streamlit Session State. | Streamlit, Python |
+| Assignment 4 — Enhanced AI Image Generator | AI image generation workflow with art-style controls, image sizing, Magic Enhance, Surprise Me, and dynamic downloads. | Streamlit, Pollinations AI |
+| Assignment 5 — AI Multi-Modal Visual Novel | Story-driven AI application using structured JSON responses, dynamic choices, Pollinations visuals, and gTTS narration. | Streamlit, Gemini, Pollinations AI, gTTS, JSON |
+| Assignment 6 — GitHub Terminal-Style Profile | Built a terminal-inspired GitHub profile README using Markdown, ASCII art, stats, and contribution-style visuals. | GitHub, Markdown |
+| Assignment 7 — Life-OS Wellbeing Dashboard | Streamlit wellbeing dashboard using screen-time data, Pandas, visualizations, and Gemini-powered coaching. | Streamlit, Pandas, Gemini, Python |
+
+## Capstone Project — Tech Roast
+
+Tech Roast is an AI-powered resume critique and review application that uses Google Gemini to analyze resume content and provide recruiter-style feedback. It helps identify weaknesses in a resume and improve positioning for technical roles.
+
+- GitHub Repository: [Tech Roast GitHub Repository](https://github.com/ashrithakadarla/tech-roast)
+- Live Demo: [Tech Roast Live Demo](https://tech-roast-bfxaxv4qvoirenmelkstul.streamlit.app/)
+
+## Technologies & Skills
+
+| Technology / Skill | Usage |
+|---|---|
+| Python | Core application development |
+| Streamlit | Interactive AI and dashboard apps |
+| Google Gemini API / `google-genai` | AI response generation and coaching |
+| Pollinations AI | AI image generation |
+| Pandas | Data processing and dashboard aggregation |
+| Requests | API requests |
+| gTTS | Text-to-speech narration |
+| `streamlit-mic-recorder` | Speech-to-text input |
+| `python-dotenv` | Environment variable management |
+| JSON | Structured output parsing |
+| Git | Version control |
+| GitHub | Repository and profile workflow |
+| Streamlit Community Cloud | App deployment |
+
+## Repository Structure
+
+```text
+mirai-intern/
+├── assignment7/
+│   ├── README.md
+│   ├── app.py
+│   ├── requirements.txt
+│   └── screentime.csv
+├── multipersonality_chatbot/
+│   └── app.py
+├── .gitignore
+├── README.md
+├── Calculator.py
+├── app.py
+├── assignment4.py
+├── assignment5.py
+├── identity_echo_interface.py
+├── internship.py
+├── session3.py
+├── session4.py
+├── session5.py
+├── session6.py
+├── session8.py
+├── session9.py
+├── session10.py
+└── .gitignore
+```
+
+## Learning Outcomes
+
+This repository reflects practical learning in:
+
+- Gemini API integration
+- Prompt engineering
+- Streamlit development
+- Session state
+- Stateful AI applications
+- AI image generation
+- API integration
+- JSON parsing
+- Multimodal AI development
+- Text-to-speech
+- Speech-to-text
+- Pandas and data visualization
+- Environment variable management
+- Git and GitHub
+- Deployment basics
+
+## Security
+
+API keys and other sensitive values were managed locally through environment variables and `.env` files. These secrets were not committed to GitHub and should never be stored directly in repository files.
+
+## Author
+
+**Ashritha Kadarla**
